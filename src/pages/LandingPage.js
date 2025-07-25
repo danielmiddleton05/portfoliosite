@@ -21,7 +21,7 @@ const sections = [
 	//	lightColor: "bg-soft",
 	//},
 	{
-		title: "About Me",
+		title: "Personal Profile",
 		path: "/about-me",
 		color: "bg-primary",
 		lightColor: "bg-soft",
