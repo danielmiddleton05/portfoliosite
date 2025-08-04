@@ -6,25 +6,22 @@ const sections = [
 		title: "Leadership Skills",
 		path: "/leadership-skills",
 		color: "bg-primary",
-		lightColor: "bg-secondary",
+		lightColor: "bg-soft",
+		image: "/leadershipVector.png", // public/leadershipVector.svg
 	},
 	{
 		title: "Experience",
 		path: "/experience-projects",
 		color: "bg-secondary",
 		lightColor: "bg-accent",
+		image: "/experienceVector.png",
 	},
-	//{
-	//	title: "Testimonials",
-	//	path: "/testimonials",
-	//	color: "bg-accent",
-	//	lightColor: "bg-soft",
-	//},
 	{
 		title: "About Me",
 		path: "/about-me",
 		color: "bg-primary",
 		lightColor: "bg-soft",
+		image: "/aboutMeVector.png",
 	},
 ];
 
@@ -65,8 +62,14 @@ function LandingPage() {
 				{sections.map((section, index) => (
 					<div key={section.path} data-index={index} ref={(el) => (containerRefs.current[index] = el)} className={`transition-opacity duration-700 ease-in-out w-full max-w-2xl mb-20 ${visibleSections.includes(index) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
 						<button onClick={() => navigate(section.path)} className="w-full text-center rounded-lg overflow-hidden shadow-md focus:outline-none">
-							<div className={`${section.color} text-white text-2xl font-semibold py-6 px-8`}>{section.title}</div>
-							<div className={`${section.lightColor} text-gray-800 text-black py-4 px-8`}>Click to learn more about {section.title}.</div>
+							<div className={`${section.color} text-white py-6 px-8`}>
+								<h3 className="text-2xl font-semibold">{section.title}</h3>
+							</div>
+
+							<div className={`${section.lightColor} flex flex-col items-center py-6 px-8`}>
+								<img src={section.image} alt={section.title} className="w-40 h-auto mb-4" />
+								<p className="text-black text-base">Click to learn more about {section.title}.</p>
+							</div>
 						</button>
 					</div>
 				))}
