@@ -7,7 +7,7 @@ const sections = [
 		path: "/leadership-skills",
 		color: "bg-primary",
 		lightColor: "bg-soft",
-		image: "/leadershipVector.png", // public/leadershipVector.svg
+		image: "/leadershipVector.png", // public/leadershipVector.png
 	},
 	{
 		title: "Experience",
