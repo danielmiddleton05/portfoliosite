@@ -17,7 +17,7 @@ const sections = [
 		image: "/experienceVector.png",
 	},
 	{
-		title: "About Me",
+		title: "Personal Profile",
 		path: "/about-me",
 		color: "bg-primary",
 		lightColor: "bg-soft",
