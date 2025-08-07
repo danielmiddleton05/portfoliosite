@@ -105,10 +105,10 @@ function LeadershipSkills() {
 	return (
 		<div className="flex flex-col bg-gray-100 pt-0">
 			<div className="flex-1">
-				<div className="max-w-4xl mx-auto text-left">
+				<div className="max-w-4xl mx-auto text-center">
 					<h1 className="text-4xl font-bold text-primary mb-8 mt-8">Leadership Skills</h1>
 					{skills.map((skill, index) => (
-						<div key={index} className="rounded shadow overflow-hidden mb-8 last:mb-0">
+						<div key={index} className="rounded shadow overflow-hidden mb-8 last:mb-0 w-full md:w-[600px] mx-auto transition-all duration-300">
 							<button onClick={() => toggleSection(index)} className={`${skill.color} w-full text-center text-white px-6 py-4 text-xl font-semibold focus:outline-none`}>
 								{skill.title}
 							</button>
