@@ -12,7 +12,7 @@ function ExperienceProjects() {
 			role: "Web Developer and Designer (Contract)",
 			company: "Monilis Design",
 			duration: "September 2022 – September 2024",
-			points: ["Created responsive eLearning platforms using React.js and Firebase.", "Developed accessible instructional content integrated into client LMS systems.", "Delivered visually appealing user interfaces and multimedia instructional assets."],
+			points: ["Created responsive eLearning platforms using React.js and Firebase.", "Developed accessible instructional content integrated into client LMS systems.", "Delivered visually appealing user interfaces and multimedia instructional assets, with clients from all over the world."],
 		},
 		{
 			role: "Website Admin and Content Manager",
@@ -24,7 +24,7 @@ function ExperienceProjects() {
 			role: "Publications and ToK Teacher / Head of Department",
 			company: "Gyeonggi Suwon International School",
 			duration: "July 2019 – June 2023",
-			points: ["Led a team of 6 educators and redesigned the IB Theory of Knowledge curriculum for record-setting academic performance.", "Developed new digital curriculum and won multiple NSPA awards for best international yearbook.", "Taught web design and digital communication with HTML5, CSS3, and Bootstrap."],
+			points: ["Led a team of 6 educators and redesigned the IB Theory of Knowledge curriculum for record-setting academic performance, resulting in the highest ToK score averages in the school's 20 year history.", "Developed new digital curriculum and won multiple NSPA awards for best international yearbook.", "Taught web design and digital communication with HTML5, CSS3, and Bootstrap."],
 		},
 		{
 			role: "Design Consultant & Photographer",
@@ -48,7 +48,7 @@ function ExperienceProjects() {
 			role: "Rifleman",
 			company: "United States Marine Corps",
 			duration: "November 2007 – July 2009",
-			points: ["Completed rigorous tactical training and contributed to mission execution in infantry units.", "Operated advanced weaponry and communication systems under strict protocols.", "Recognized for reliability, discipline, and operational effectiveness."],
+			points: ["Completed rigorous tactical training and contributed to mission execution in infantry units.", "Operated advanced weaponry and communication systems under strict protocols.", "Led a Fire-Team of 4 Marines, leading to recognition for reliability, discipline, and operational effectiveness."],
 		},
 	];
 
