@@ -1,6 +1,6 @@
 import React from "react";
 
-function ExperienceProjects() {
+export default function ExperienceProjects() {
 	const experience = [
 		{
 			role: "Instructional Technologist",
@@ -53,28 +53,30 @@ function ExperienceProjects() {
 	];
 
 	return (
-		<div className="min-h-screen bg-gray-100 py-10 px-4">
-			<h1 className="text-3xl font-bold text-primary text-center mb-12">Experience</h1>
-			<div className="max-w-5xl mx-auto space-y-10">
-				{experience.map((item, idx) => (
-					<div key={idx} className="bg-white shadow rounded-lg p-6">
-						<div className="flex justify-between items-start flex-wrap">
-							<div>
-								<h2 className="text-xl font-semibold text-secondary">{item.role}</h2>
-								<p className="text-sm text-gray-600">{item.company}</p>
+		<div className="flex flex-col bg-gray-100 pt-0">
+			<div className="flex-1">
+				<div className="max-w-4xl mx-auto text-left">
+					<h1 className="text-4xl font-bold text-primary mb-8 mt-8">Experience & Projects</h1>
+					<div className="max-w-5xl mx-auto space-y-10">
+						{experience.map((item, idx) => (
+							<div key={idx} className="bg-white shadow rounded-lg p-6">
+								<div className="flex justify-between items-start flex-wrap">
+									<div>
+										<h2 className="text-xl font-semibold text-secondary">{item.role}</h2>
+										<p className="text-sm text-gray-600">{item.company}</p>
+									</div>
+									<p className="text-sm text-gray-500 mt-1">{item.duration}</p>
+								</div>
+								<ul className="list-disc list-inside mt-4 space-y-1 text-gray-700">
+									{item.points.map((point, i) => (
+										<li key={i}>{point}</li>
+									))}
+								</ul>
 							</div>
-							<p className="text-sm text-gray-500 mt-1">{item.duration}</p>
-						</div>
-						<ul className="list-disc list-inside mt-4 space-y-1 text-gray-700">
-							{item.points.map((point, i) => (
-								<li key={i}>{point}</li>
-							))}
-						</ul>
+						))}
 					</div>
-				))}
+				</div>
 			</div>
 		</div>
 	);
 }
-
-export default ExperienceProjects;
