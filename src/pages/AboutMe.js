@@ -59,7 +59,17 @@ export default function AboutMe() {
 							<li>
 								<strong>Moreland University</strong>
 								<br />
-								M.Ed. in Education (Globalization & Research), 2021
+								M.Ed. of Education (Globalization & Research), 2021
+							</li>
+							<li>
+								<strong>University of Tennessee</strong>
+								<br />
+								B.A. Chemistry, 2018
+							</li>
+							<li>
+								<strong>Indiana Wesleyan University</strong>
+								<br />
+								M.Ed. of Education (Curriculum and Instruction), 2014
 							</li>
 							<li>
 								<strong>Johnson University</strong>
